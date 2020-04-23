@@ -1,0 +1,9 @@
+<p>
+
+  <i (click)="go(-1)" class="mdi mdi-arrow-left-drop-circle-outline"></i>
+
+  <span>{{dateService.date | async | moment}}</span>
+
+  <i (click)="go(1)" class="mdi mdi-arrow-right-drop-circle-outline"></i>
+
+</p>
